@@ -15,7 +15,7 @@ A browser extension that hides Reels, Stories, and suggested content from your F
 2. Open `chrome://extensions/` (or `edge://extensions/`)
 3. Enable **Developer mode**
 4. Click **Load unpacked** and select the extension folder
-5. Done — the extension is now active on Facebook
+5. The extension is now active on Facebook
 
 ## Usage
 
@@ -33,7 +33,7 @@ Click the extension icon in your toolbar to open the settings popup. Toggle feat
 
 ## Permissions
 
-- **storage** — To save your settings
+- **storage** To save your settings
 
 ## Notes
 
