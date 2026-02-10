@@ -110,7 +110,10 @@
     function hideSuggested() {
         for (const button of document.querySelectorAll('[role="button"]')) {
             const text = (button.innerText || button.textContent || '').trim();
-            if (text !== 'Follow') continue;
+            const allowed = ['Follow', 'انضمام', 'متابعة'];
+            if (!allowed.includes(text)) continue;
+
+            // if (text !== 'Follow') continue;
 
             const container = findPostContainer(button);
             if (container && isSafeToHide(container)) {
